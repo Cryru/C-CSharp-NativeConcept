@@ -11,6 +11,5 @@ extern __stdcall int Hi(hiFromProxyFuncPtrType); // Declared in Program.cs
 int main() {
     Hi(&hiFromProxyFunc);
     printf("Hello, world!\n");
-    printf("Done!");
     return 0;
 }
