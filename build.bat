@@ -2,7 +2,7 @@ mkdir .\bin
 
 echo Starting DotNet Compiler
 cd .\csharp
-dotnet publish /p:NativeLib=Shared /p:UseCoreRT=true -r win-x64 -c release
+dotnet publish /p:NativeLib=Shared /p:SelfContained=true -r win-x64 -c release
 cd ..\
 echo C# Compiled!
 
